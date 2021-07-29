@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 100%;
+}
+.navbar {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+header{
+    width: 100%;
+    height: 100%;
+}
+header .jumbotron{
+    background-color: rgb(82, 185, 250);
+    padding-bottom: 20px;
+}
+.jumbotron li a{
+    color: white;
+}
+.tab-content input::placeholder{
+    font-size: small;    
+}
+.tab-content p{
+    color: white;
+    padding: 0 260px;
+}
+.tab-content button{
+    width: 520px;
+    margin-top: 30px;
+}
+#more input, #more select{
+    width: 468px;
+}
+#tenders a{
+    color: white;
+}
+#more{
+    display: none;
+}

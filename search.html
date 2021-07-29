@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Opexx</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="search-style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm bg-primary">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link text-uppercase text-white pr-3" href="index.html">Opexx</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-uppercase text-white pr-3" href="search.html">Search</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-uppercase text-white pr-3" href="pricing.html">Pricing</a>
+                    </li>
+                  </ul>
+            </nav>
+
+            <div class="jumbotron rounded-0 pt-4 mb-5">
+                <div class="container">
+                  <ul class="nav nav-tabs justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#tenders">Live Tenders</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#winners">Winners</a>
+                    </li>
+                  </ul>
+
+                  <div class="tab-content">
+                    <div id="tenders" class="container tab-pane active"><br>
+                      <form class="form-inline in mx-5">
+                          <input type="text" class="form-control w-75 mb-2 mr-sm-4 border-0" placeholder="Keyword" id="keyword">
+                          <input type="text" class="form-control mb-2 border-0" placeholder="Location" id="location">
+                          <div id="more">
+                            <input type="text" class="form-control mb-2 mr-sm-4 border-0" placeholder="Min Value">
+                            <input type="text" class="form-control mb-2 border-0" placeholder="Max Value">
+                            <input type="text" class="form-control mb-2 mr-sm-4 border-0" placeholder="Buyer Name">
+                            <input type="text" class="form-control mb-2 border-0" placeholder="CPV">
+                            <select class="form-control mb-2 mr-sm-4 border-0">
+                                <option>Published</option>
+                                <option>Any Time</option>
+                                <option>Today</option>
+                                <option>Within last 7 days</option>
+                                <option>Within last 30 days</option>
+                                <option>Custom range</option>
+                            </select>
+                            <select class="form-control mb-2 border-0">
+                                <option>Deadline</option>
+                                <option>Any Time</option>
+                                <option>In the future</option>
+                                <option>Within last 7 days</option>
+                                <option>Within last 30 days</option>
+                                <option>Within a year</option>
+                                <option>Custom range</option>
+                            </select>
+                          </div>
+                          <a id="myBtn" href="#" class="mx-auto" role="button">Show More/Less</a>
+                      </form>
+                    </div>
+                    <div id="winners" class="container tab-pane fade"><br>
+                      <p class="text-center"><small>Winner and award information allow you to analyze previously awarded contracts. Start your free
+                        14-day trial now to see which companies have won tenders and which organizations have issued
+                        tenders before.</small></p>
+                        <button class="btn btn-success text-white text-uppercase text-center mr-sm-3" type="button">Start free trial</button> 
+                        <button class="btn bg-white text-primary text-center" type="button">Login</button> 
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="container text-center">
+                <h1 class="display-4 mb-5">9,000,000 tenders at your fingertips.</h1>
+                <h4 class="text-primary mb-5">Start free trial for 14 days. No credit card needed.</h4>
+                <button class="btn btn-success text-white text-uppercase text-center" type="button">Start free trial</button>
+            </div>
+        </header>
+
+        <script src="showhide.js">
+        </script>
+    </body>
+</html>
